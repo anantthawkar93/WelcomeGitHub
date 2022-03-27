@@ -1,3 +1,3 @@
 # WelcomeGitHub
 This is my first Repository
-Thsi is my first Commit
+This is my first Commit
