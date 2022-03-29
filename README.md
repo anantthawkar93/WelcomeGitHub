@@ -7,3 +7,7 @@ Some Description!
 
 ## Subheader
 Watch tutorial of GitHub on Youtube!!
+
+## Local Development
+
+1. Open index.html in your browser.
