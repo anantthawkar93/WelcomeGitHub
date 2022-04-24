@@ -1,13 +1,7 @@
-# WelcomeGitHub
+# myHTML_CSS_Assignments
 This is my first Repository
 This is my first Commit
 
-# Demo
-Some Description!
+##Topics -
 
-## Subheader
-Watch tutorial of GitHub on Youtube!!
-
-## Local Development
-
-1. Open index.html in your browser.
+1. Introduction of Course.
