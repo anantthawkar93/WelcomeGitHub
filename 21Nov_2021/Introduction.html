@@ -1,0 +1,168 @@
+<!DOCTYPE html>     <!--This Tag is used to tell browser that this code is in HTML5 which is latest version of html-->
+<html lang="en">    
+<!--This is the root tag means this is parent tag of all the tags. All tags are inside this html tag.
+The lang Attribute :-
+We should always include the lang attribute inside the <html> tag, to declare the language of the Web page. 
+This is meant to assist search engines and browsers.
+-->
+<head>      <!--This Head is a tag which contains other tags that shows information (meta information) about the page like page title.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of Course</title> <!--This tag is used to specify a title for the HTML page (which is shown in the browser's title bar or in the page's tab).-->
+    
+    <!--This style tag is used for CSS styling the page/ document by indicating tags, classes, ids etc -->
+    <style> 
+    div{
+        border-color: solid black;
+        border: 10px;
+        margin: 3px;
+    }
+    h1{
+        color: blueviolet;
+        font-weight: bold;
+    }
+    p{
+        color: black;
+        font-weight: bold;
+    }
+    h3{
+        color: brown;
+        font-weight: bold;
+    } 
+     
+    </style>    
+</head>
+<body>      <!--This tag is used to show and defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+    <div style="background-color: blanchedalmond;">
+        <h1 style="font-size: 50px; text-align: center;">UI (User Interface) Development Technologies</h1>
+        <!--
+        This tag defines a large heading (h1) and least importance heading (h6)
+        Note: Use HTML headings for headings only. Don't use headings to make text BIG or bold.
+        Bigger Headings :- Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute,
+        using the CSS font-size property:
+        -->
+        <h3 title="This is Sub-Topic">HTML5</h3>
+        <!--
+        The title Attribute :-
+        The title attribute defines some extra information about an element.
+        The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+        -->
+        <p><i> 
+        <!--this <p> tag is to defines a paragraph
+        A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+        -->
+            HTML stands for Hyper Text Markup Language.
+            <br>
+            <!--HTML Line Breaks :-
+            The HTML <br> element defines a line break.
+            Use <br> if you want a line break (a new line) without starting a new paragraph:
+            -->
+            It is the standard markup language for creating Web pages.<br>
+            It describes the structure of a Web page.<br>
+            It consists of a series of elements.<br>
+            HTML elements tell the browser how to display the content.<br>
+            HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.<br><br>
+            <!--Note: 1. Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+                    2. HTML tags are not case sensitive: <P> means the same as <p>. The HTML standard does not require lowercase tags and demands lowercase for stricter document types like XHTML.
+
+            -->
+            <b>HTML Attributes - </b><br><br>
+            All HTML elements can have attributes.<br>
+            Attributes provide additional information about elements.<br>
+            Attributes are always specified in the start tag.<br>
+            Attributes usually come in name/value pairs like: name="value".<br>
+        </i></p>
+        <hr>
+        <!--
+        The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+        The <hr> element is used to separate content (or define a change) in an HTML page
+        -->
+
+        <h3>CSS3</h3>
+        <p style="color: blue;"><i>Advanced version of CSS is used to decorate html pages.
+            So, All Colors, styles, layout is all done by CSS (Cascading Styling Sheet).
+        </i></p>
+        <!--The style attribute is used to add styles to an element, such as color, font, size, and more.-->
+        <hr>
+
+        <h3>Bootstrap - CSS FrameWork developed by Twitter</h3>
+        <p></p>
+        <hr>
+
+        <h3>Javascript</h3>
+        <p><i></i></p>
+        <hr>
+
+        <h3>ReactJS</h3>
+        <!--The HTML <pre> element defines preformatted text.
+        The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+        -->
+        <pre><mark>React is a framework   provided by facebook to create  amazing   WebApplications.  </mark></pre>
+        <h3>Redux</h3>
+        <p><i></i></p>  
+        <!--
+        HTML <b> and <strong> Elements :- 
+        The HTML <b> element defines bold text, without any extra importance.
+        The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
+
+        HTML <i> and <em> Elements :-
+        The HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+        Tip: The <i> tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+        The HTML <em> element defines emphasized text. The content inside is typically displayed in italic.
+        Tip: A screen reader will pronounce the words in <em> with an emphasis, using verbal stress.
+
+        HTML <mark> Element :- The HTML <mark> element defines text that should be marked or highlighted.
+
+        HTML <del> Element :-The HTML <del> element defines text that has been deleted from a document. 
+        Browsers will usually strike a line through deleted text.
+
+        -->
+    </div>
+    <div>
+        <h1 style="font-size: 50px; text-align: center;">Backend Development Technologies</h1>
+        <h3>NodeJS</h3>
+        <p><i></i></p>
+        <h3>ExpressJs</h3>
+        <p><i></i></p>
+        <h3>MongoDB</h3>
+        <p><i></i></p>
+        <h3>AWS Cloud</h3>
+        <p><i></i></p>
+    </div>
+    <div>
+        <h3><em>UI Development + Backend Development => FullStack Development</em></h3>
+    </div>
+    <!--Setting the style of an HTML element, can be done with the style attribute.
+    The HTML style attribute has the following syntax:
+
+    <tagname style="property:value;">
+
+    The property is a CSS property. The value is a CSS value.  
+
+    The href Attribute :-
+    The <a> tag defines a hyperlink (Anchor tag). The href attribute specifies the URL of the page the link goes to:
+    The src Attribute :- 
+    The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed and 
+    it also contain the width and height attributes, which specifies the width and height of the image (in pixels): 
+    The alt Attribute :-
+    The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed.
+    This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader.
+    -->
+    <div>
+        <a href="https://www.google.com">Visit Google Site</a><br><br>
+        <img src="img_girl.jpg" width="400" height="500" alt="alternate_name_as_img_failed to_load">
+    </div>
+    
+    <script>
+        /*This Script tag is used to write and execute javascript code.
+        Script tag can be placed in <head> tag or <body> tag, but good practise to write in body tag.
+        */
+       let company = "Zenrays Pvt. Ltd.";
+       alert(company);
+    </script>
+
+    <h3>20-Nov-2021 : Assignment-1</h3>
+    
+</body>
+</html>
