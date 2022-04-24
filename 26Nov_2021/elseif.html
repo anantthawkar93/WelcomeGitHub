@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">	
+</head>
+<body>
+	<h1>Check Availability of Subject Books</h1>
+	<input type="text" placeholder="Enter Subject Book Name" id="bkname"/>
+	<script type="text/javascript">
+		function cond(){
+			let book = document.getElementById('bkname').value;
+				if( book == "history" ){
+				    return document.write("<b>History Book</b>");
+				}
+				else if( book == "maths" ){
+					return document.write("<b>Maths Book</b>");
+				}
+				else if( book == "economics" ){
+					return document.write("<b>Economics Book</b>");
+				}
+				else{
+					return document.write("<b>Unknown Book</b>");
+			    }
+        }
+	</script>
+	<button type="text" onclick="cond()">Submit</button>
+</body>
+</html>

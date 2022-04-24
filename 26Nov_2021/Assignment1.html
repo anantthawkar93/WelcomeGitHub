@@ -1,0 +1,42 @@
+<!--
+    1) The land size of Rob is 1200 sq feet wide and 1100 sq feet long. 
+the unit price per square feet is 400$. alert the total money he will make if he sells his land. 
+Rob now wants to transfer the amount to his account in india. If 1 dollar is 76 Rupees then what is the total amount he will transfer to the bank. 
+Now there is an issue. Indian bank charges a GST of 18%. then find what is the total amount of money he has to give as GST> 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Assignment1</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		#blue-heading{
+			color: gray;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="blue-heading">Assignment-1</h1>
+	<script type="text/javascript">
+		var width_ft = 1200;
+		var length_ft = 1100;
+		let unitprice_persqft = 400;
+		var dollar_rupee= 76;//1 dollar = 76 Rupees
+		var Total_Amt_transfer_2Bank = (width_ft*length_ft)*unitprice_persqft;
+		alert("Total Money Rob will make by Selling land in Dollars" + " " + Total_Amt_transfer_2Bank)
+		var GST= .18;
+		var Amt_2b_givenas_GST= Total_Amt_transfer_2Bank*GST*dollar_rupee;
+		alert("Amount to be given as GST in Rupees" + " " + Amt_2b_givenas_GST)
+		var Total_Amt= Total_Amt_transfer_2Bank*(1-GST)*dollar_rupee;
+		alert("Total Amount after GST in Rupees is " + " " + Total_Amt)
+		document.write("1. Total Money Rob will make by Selling land in Dollars $" + " " + Total_Amt_transfer_2Bank)
+		document.write("<br><br>")
+		document.write("2. Amount to be given as GST in Rupees is Rs : " + " " + Amt_2b_givenas_GST)
+		document.write("<br><br>")
+		document.write("3. Total Amount after GST in Rupees is Rs : " + " " + Total_Amt)
+	</script>
+
+</body>
+</html>

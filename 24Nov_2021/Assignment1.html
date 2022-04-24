@@ -1,0 +1,49 @@
+<!--
+    1) Create a form for a library managment application. 
+in the application you need to register with a register form. 
+in the form you have following fields.
+ username
+ email
+ password
+ age
+ description about you (should be text area)
+
+ Note: give label to all the fields. 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title><strong>Library Management Application</strong></title>
+	<style type="text/css">
+		body{
+			border: 4px solid blue;
+			padding: 10px;
+		}
+		form{
+			border: 4px solid grey;
+			padding: 30px;
+        }
+	</style>
+</head>
+<body>
+	<form action="http://google.com" method="get" accept-charset="utf-8">
+		<h1>Library Management Application</h1>
+		<label for="uname">Username:</label>
+		<input id="uname" type="text" name="Username"/><br><br>
+		<label for="email">Lastname:</label>
+		<input id="email" type="text" name="Email"/><br><br>
+		<label for="password">Password:</label>
+		<input type="password" name="Password"/><br><br>
+		<label for="number">Age:</label>
+		<input id="number" type="number" name="Age"/><br>
+		<br>
+		<label for="Description">Description about yourself:</label>
+		<textarea placeholder="Description about yourself" rows="10" cols="25">
+        </textarea>
+        <br>
+        <input type="submit" name="Submit">
+	</form>
+</body>
+</html>

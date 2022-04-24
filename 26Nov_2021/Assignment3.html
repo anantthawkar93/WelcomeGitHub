@@ -1,0 +1,35 @@
+<!--
+    3) Now again one more issue, Banks charge income tax on money that Rob earns as interest. The tax is 10%. then alert the total amount of money he has to pay as tax. 
+Also find what will be the total amount of moeny in his bank after paying the tax and getting simple interest.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Assignment3</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		#blue-heading{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="blue-heading">Assignment-3</h1><br>
+	<script type="text/javascript">
+		var Total_Amount_after_GST = 32904960000.0;
+		var Total_Amt_with_Interest = 2467872000;
+		var tax= 10; // in percentages
+		var Total_Amt2pay_as_tax =(Total_Amt_with_Interest*tax)/100;
+		alert("Total Amount of money Rob has to pay as tax is Rs : " + " " + Total_Amt2pay_as_tax)
+		document.write("1. Total Amount of money Rob has to pay as tax is Rs : " + " " + Total_Amt2pay_as_tax)
+		document.write("<br><br>")
+		var Total_Amt_of_money = (Total_Amt_with_Interest*0.9) + Total_Amount_after_GST;
+		alert("Total Amount of money in Rob's bank account after paying the tax and getting the simple interest is Rs : " + " " + Total_Amt_of_money)
+		document.write("2. Total Amount of money in Rob's bank account after paying the tax and getting the simple interest is Rs : " + " " + Total_Amt_of_money)
+		document.write("<br><br>")
+	</script>
+
+</body>
+</html>

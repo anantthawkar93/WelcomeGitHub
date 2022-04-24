@@ -1,0 +1,60 @@
+<!--
+    2) Create a form for a library managment application. 
+in the application you need to register with a register form. 
+in the form you have following fields.
+ username
+ email
+ password
+ age
+ description about you (should be text area)
+
+ Note: instead of label use placeholder this time
+       all input boxes should be in next line 
+       give border to username and password field. the border color should be blue
+       give padding to age and email field with value of 5px and border color of green      
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Library Management For Application</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		.blue{
+			border: 3px solid blue;
+			padding: 5px;
+		}
+		.green{
+			border: 3px solid green;
+			padding: 5px;
+		}
+		body{
+			border: 4px solid black;
+			padding: 10px;
+		}
+		form{
+			border: 4px solid grey;
+			padding: 30px;
+        }
+	</style>
+</head>
+<body>
+	<h1>Library Management Application</h1>
+	<form action="http://google.com">
+		<input class="blue" placeholder="Username" id="uname" type="text" name="Username"/><br>
+		<br>
+		<input class="green" placeholder="Email" id="email" type="text" name="Email"/><br>
+		<br>
+		<input class="blue" placeholder="Password" type="text" name="Password"/><br>
+		<br>
+		<input class="green" placeholder="Age" id="number" type="text" name="Age"/></br>
+		<br>
+		<textarea placeholder="Description about yourself" rows="10" cols="25">
+        </textarea></br>
+		<input type="submit" value="Submit">
+
+	</form>
+	
+</body>
+</html>
