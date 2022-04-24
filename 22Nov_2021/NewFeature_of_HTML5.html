@@ -1,0 +1,68 @@
+<!--
+1)HTML5 comes up with new symatic tags that helps in organising the content.
+Ex. <nav> tag that is now used to enclosed the navigation code.
+Note: That the new symatic tags only attach the meaning to tags.they dont provide any new behaviour.
+
+What are Semantic Elements?
+Semantic elements => elements with a meaning.
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements:-  <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements:- <form>, <table>, and <article> - Clearly defines its content.
+
+2) New Input types - 
+HTML5 supports new input types for forms. The new input types comes up with new features for better
+user experience.
+Ex. input type email now supports inbulit validation for email types.
+
+3) Support for videos and Audios - 
+HTML5 has inbuilt supports for videos and audios.
+We no longer needed flash to play audios and videos.
+
+4) Databases support-
+HTML5 also supports inbuilt database to store data.
+The different types of databases support enables the developers to now store
+data like files, images along with relational database support. 
+
+5)Device Interactions - 
+HTML5 can now interact with the host device like battery-API and GeoLocation-API
+through Javascript.
+
+6)Animation and Drawing Support-  
+HTML5 has built support for drawing images using canvas API and SVG.
+This helps to create images dynamically using Javascript.
+
+##HTML5 - 
+Doctype: We no longer need the long Doctype Declaration.
+For declaring a document for html5, use the following doctype : <!DOCTYPE HTML>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Form</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		body{
+			border: 4px solid blue;
+			padding: 10px;
+		}
+		form{
+			border: 2px dotted green;
+			padding: 5px;
+		}
+		
+	</style>
+</head>
+<body>
+	<form action="http://google.com" method="get" accept-charset="utf-8">
+	<input type="text" name="First Name"/>
+	<input type="text" name="Last Name"/>
+	<input type="text" name="Age"/>
+	<input type="email" name="Personal Email"/>
+	<button type="">Submit</button>
+	</form>
+</body>
+</html>

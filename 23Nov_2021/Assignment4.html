@@ -1,0 +1,32 @@
+<!--
+4) create a login form. the form should have a green border. inside the form, keep a text box to enter username. 
+and another text box below to enter password( note for password you should type <input type="password" name = "userpassword">).
+then create a button with name login.on clicking button, you should go to zenrays.com 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Assignment-4</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		form{
+			border: 4px solid green;
+			padding: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+	<form action="http://zenrays.com" method="get" accept-charset="utf-8">
+		<pre class="tab">Username</pre>
+		<!--<label>Username</label>-->
+		<input type="text" name="Username"/><br>
+		<pre class="tab">Password</pre>
+		<input type="password" name="userpassword"/><br>
+		<br>
+		<button type="submit">Login</button>		
+	</form>
+</body>
+</html>

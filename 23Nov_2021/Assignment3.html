@@ -1,0 +1,50 @@
+<!--
+3) create a user registration form. the form should go to https://zenrays.com after clicking the submit button. 
+the form should have a first name, last name, age and email value to enter. 
+the form should have a grey border and 10px padding. 
+below the form you should show an image. 
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Assignment-3</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		body{
+			border: 4px solid blue;
+			padding: 10px;
+		}
+		form{
+			border: 4px solid grey;
+			padding: 30px;
+		}
+		img{
+			border: 4px solid black;
+			padding: 10px;
+			width: 300px;
+			height: 200px;
+		}
+		
+	</style>
+</head>
+<body>
+	<form action="http://zenrays.com" method="get" accept-charset="utf-8">
+		<pre class="tab">FirstName</pre>
+		<input type="text" name="First Name"/><br>
+		<br>
+		<pre class="tab">LastName</pre>
+		<input type="text" name="Last Name"/><br>
+		<br>
+		<pre class="tab">Age</pre>
+		<input type="text" name="Age"/><br>
+		<br>
+		<pre class="tab">Email ID</pre>
+		<input type="email" name="Email"/><br>
+		<br>
+		<button type="">Submit</button>
+	</form>
+</body>
+</html>
