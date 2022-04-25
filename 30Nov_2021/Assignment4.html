@@ -1,4 +1,28 @@
 <!--
-    4)Create a library application. you can add a book. book has 1)ISBN no 2) book type .
-     user can select following book types. Technical, magazine, comics. 3) book cost 4) author
+    4)Create a library application. you can add a book. book has 1)ISBN no 2) book type  3) book cost 4) author.
+     user can select following book types. Technical, magazine, comics.
 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment-4</title>
+</head>
+<body>
+  <div>
+        <h1>Library Application</h1>
+    </div>
+   <div class="library">
+       <input type="number" placeholder="Cost Of Books"><br><br>
+       <input list="favtbook" placeholder="Books Type"><br><br>
+       <datalist id="favtbook">
+
+        <option value="Technical"></option>
+        <option value="Comics"></option>
+        <option value="Magazine"></option>
+
+       </datalist>
+       <input type="text" placeholder="Name of Author"><br><br>
+       <button>Sumbit</button>
+   </div>
+</body>
+</html>

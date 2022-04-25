@@ -1,5 +1,38 @@
 <!--
 3)Create a car agency website form. You will create a form in which you can enter a new customer 
-with following fields
-customer name, customer email, car chasis no, car model, year of purchase.
+with following fields customer name, customer email, car chasis no, car model, year of purchase.
 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAR</title>
+</head>
+<body>
+<body>
+<div style="text-align: center; background-color:black; color:white; padding:5px; font-weight: bold; ">
+    <h1>TATA MOTORS</h1>
+    <p style="margin-top: -15px;">Welcomes You</p>
+</div>
+
+<div style="padding: 20px; text-align: center; border: 5px solid rebeccapurple;">
+
+    <input type="text" name="name" placeholder="Customer Name" id="cname"><br><br>
+    <input type="email" name="email" placeholder="Customer Email" id="cemail"><br><br>
+    <input type="number" name="chasisnumber" placeholder="Car Chessis Number" id="cchesis"><br><br>
+    <input type="tex" name="carmodel" placeholder="Car Model Name" id="cmodel"><br><br>
+    <input type="year" name="purchaseyear" placeholder="Year Of Purchase" id="pyear"><br><br>
+    <button onclick="audi()">Submit</button>
+</div>
+
+<script>
+    function audi(){
+        alert(document.querySelector("#cname").value);
+        alert(document.querySelector("#cemail").value);
+        alert(document.querySelector("#cchesis").value);
+        alert(document.querySelector("#cmodel").value);
+        alert(document.querySelector("#pyear").value)
+    }
+</script>
+
+</body>
+</html>

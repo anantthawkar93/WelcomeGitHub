@@ -2,3 +2,30 @@
     10) create a app to find area of a rectangle. 
     user can enter length and breadth from input type . show area in alert. 
 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment10</title>
+</head>
+<body>
+  <h1>Area of Rectangle</h1>
+    <input type="number" id="length" placeholder="enter length value">
+    <input type="number" id="breadth" placeholder="enter breadth value">
+ 
+    <button onclick="area()">Submit</button>
+    <output id="result"></output>
+
+    <script>
+        function area(){
+           let l=parseInt(document.getElementById("length").value);
+           let b=parseInt(document.getElementById("breadth").value);
+           
+           let a=l*b;
+        //    document.getElementById("result").value=a;
+           alert("Area of rectangle= "+a);
+        
+           
+        }
+    </script>
+</body>
+</html>

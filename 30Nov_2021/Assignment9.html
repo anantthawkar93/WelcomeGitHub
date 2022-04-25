@@ -2,3 +2,27 @@
 9) create a calculator where you can find simple interest.
  user can enter principal, rate and interest from a input type. then print the simple interest.
 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+    <h1>Simple Interest Calculator</h1>
+    <input type="number" id="principal" placeholder="enter principal amount">
+    <input type="number" id="rate" placeholder="enter rate(%)">
+    <input type="number" id="time" placeholder="enter time (year)">
+    <button onclick="simpleInterest()">Submit</button>
+    <output id="result"></output>
+
+    <script>
+        function simpleInterest(){
+           let p=parseInt(document.getElementById("principal").value);
+           let n=parseInt(document.getElementById("rate").value);
+           let r=parseInt(document.getElementById("time").value);
+           let interest=(p*n*r)/100;
+           document.getElementById("result").value=interest;
+        }
+    </script>
+</body>
+</html>
